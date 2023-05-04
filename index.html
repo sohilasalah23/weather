@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <!-- start nav bar seaction -->
+    <nav class="navbar navbar-dark   navbar-expand-lg py-5 ">
+        <div class="container">
+          <a class="navbar-brand" href="#"><img src="img/img1.png" alt="" width="70"></a>
+          <div class="logo-type text-white">
+            <h1 class="site-title fs-4 m-0">Weather</h1>
+            <p class="site-description fs-6 m-0">tagline goes here</p>
+        </div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse " id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto  mb-lg-0">
+              <li class="nav-item home-design nav-border  mx-3">
+                <a class="nav-link text-white" aria-current="page" href="#home">Home</a>
+              </li>
+              <li class="nav-item nav-border ">
+                <a class="nav-link text-white  mx-4" aria-current="page" href="#">News</a>
+              </li>
+              <li class="nav-item nav-border ">
+                <a class="nav-link text-white mx-4 " aria-current="page" href="#">Live cameras</a>
+              </li>
+              <li class="nav-item nav-border ">
+                <a class="nav-link text-white mx-3 " aria-current="page" href="#">Photos</a>
+              </li>
+              <li class="nav-item nav-border ">
+                <a class="nav-link text-white " aria-current="page" href="#">Contact</a>
+              </li>
+             
+             
+            </ul>
+          </div>
+        </div>
+      </nav>
+
+
+
+
+
+
+    <!-- end nav bar seaction -->
+    <section id="home" class=" vh-50 pb-5 ">
+        <div class=" vh-50 find-seaction">
+
+    <div class="container " >
+            <div class=" w-75 py-5 m-auto    ">
+                <div class=" w-100 position-relative my-4">
+        <input type="text" class="form-control rounded-5 search  text-white  " placeholder="Find your location..." id="search">
+        <input type="button" class="btn-input btn btn-primary btn-lg  position-absolute rounded-5 " value="Find" id="submit">
+            </div>
+        </div>
+    </div>
+    <div class="container forecast-contianer rounded-3 ">
+        <div class="row">
+            <!-- forecast section  -->
+            <div class="col-lg-4 g-0">
+                <div class="today-forecast " id="current-weather">
+               
+
+
+   
+   
+    </div> 
+            
+
+
+
+
+    
+            </div>
+            <div class="col-lg-8 g-0 forecast d-flex flex-wrap   " id="future-forecast" >           
+           
+                </div>
+            </div>
+            <!-- <div class="col-lg-4 g-0   " id="forecast" > 
+        <div class="today-forecast text-center ">
+            <div class="forecact-header d-flex justify-content-center text-gray py-2 px-3">
+                <div class="day">monday</div>     
+            </div>
+            <div class="forecact-content my-2">
+                <div class="">  <img src="img/img7.png" alt="" width="70"></div>
+                <div class="degree  ">
+                    <div class=" text-white fw-bold me-3 fs-5 my-1  ">19<sup>o</sup>C</div>
+                    <div class=" text-gray fw-bold me-3 fs-5 my-1  ">19<sup>o</sup></div>
+                </div>
+                <div class="custom text-primary py-2"> Sunny </div>
+           </div>
+
+        </div> 
+            </div> -->
+    </div>
+    </div>
+        </div>
+    </section>
+   
+    <!-- ftart footer  -->
+    <footer id="footer" class=" py-5 "  >
+        <div class="container  p-4">
+            <div class="row">
+                <div class="col-lg-8">
+                    <div class="email">
+                        <div class=" position-relative">
+                            <input type="text" class="form-control rounded-5 search  text-white  " placeholder="Enter your email to subscribe...">
+                            <input type="button" class="btn-input btn btn-primary btn-lg  position-absolute rounded-5 " value="Subscribe" id="submit">
+                                </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 offset-1 ">
+                    <div class="social-icon d-flex text-center g-3">
+                        <div class="icon py-2 rounded-circle text-center mx-1">
+                        <a href="" > <i class="fa-brands fa-facebook-f  fs-5"></i>   </a>
+                        </div>
+                        <div class="icon p-2 rounded-circle text-center mx-1">
+                        <a href="" > <i class="fa-brands fa-twitter  fs-5 "></i>   </a>
+                        </div>
+                        <div class="icon p-2 rounded-circle text-center mx-1">
+                        <a href="" ><i class="fa-brands fa-google-plus-g"></i>  </a>
+                        </div>
+                        <div class="icon p-2 rounded-circle text-center mx-1">
+                        <a href="" > <i class="fa-brands fa-pinterest  fs-5"></i>   </a>
+                        </div>
+                    
+                        
+                    </div>
+                </div>
+            </div>
+            <p class="text-gray my-3">Copyright 2014 Company name. Designed by Themezy. All rights reserved</p>         
+        </div>
+    </footer>
+
+
+
+
+
+
+    <script src="js/index.js"></script>
+</body>
+</html>

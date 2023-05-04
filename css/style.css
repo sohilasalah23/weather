@@ -1,0 +1,131 @@
+.navbar {
+    background-color: #1e202b;
+
+}
+.home-design{
+    border: #009ad8 3px solid;
+    padding: 1px 15px;
+    border-radius: 30px;
+    margin-right: 1rem;
+}
+
+/* li:hover{
+    border: #009ad8 3px solid;
+    border-radius: 30px;
+    color: white;
+} */
+
+
+.nav-border:hover{
+    border: solid 3px #009ad8;
+    border-radius: 30px;
+    
+}
+
+
+
+
+
+
+#home{
+    background-color: #1e202b;
+    padding-bottom: 3rem;
+    margin: 0;
+} 
+ 
+ .find-seaction {
+    background-image:url(../img/img2.png);
+    background-repeat: no-repeat;
+     
+}
+.search{
+    background: #1e202b;
+    color: white;
+    padding: 20px 50px 20px 20px;
+    outline: none;
+    border: none;
+}
+.btn-input{
+     top: 5px;
+    right: 5px;
+    bottom: 5px;
+    padding: 0 40px; 
+    border: none;
+    background: #009ad8;
+}
+input::placeholder{
+    color: rgb(182, 182, 182) !important;
+}
+.form-control:focus{
+    background: #1e202b;
+    box-shadow: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.forecast-contianer{
+    background-color: #323544;
+    
+}
+.forecact-content{
+    padding: 10px 20px 10px ;
+
+}
+.num{
+font-size: 6rem;
+}
+
+.forecact-header{
+    background-color: rgba(0, 0, 0, 0.1);
+}
+.text-gray{
+    color: #bfc1c8;
+
+}
+.forecast{
+    background-color: #262936;
+}
+
+
+
+
+
+
+
+
+
+
+#footer{
+    background-color: #323544;
+
+}
+.icon a {
+    text-decoration: none;
+}
+
+.icon{
+    background: #1e202b;
+    color: #009ad8;
+    width: 2.5rem ;
+    height: 2.5rem ;
+    text-align: center;
+}
+.icon:hover{
+    background: #009ad8;
+    color: white;
+ 
+}
+.icon:hover i{
+    color: white;
+}
+
+
